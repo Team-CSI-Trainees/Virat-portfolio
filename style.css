@@ -1,0 +1,220 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.sidebar{
+    background-color: rgb(225 223 223);
+    width: 12vw;
+    height: 210vh;}
+.sidebar nav{
+    padding:36px;
+    
+}
+.sidebar nav li{
+    list-style: none;
+    font-size: 18px;
+    padding: 18px 0;
+    
+}
+.sidebar nav li a{
+    text-decoration: none;
+    color:black;
+    font-weight: bold;
+}
+.sidebar nav li a:hover{
+    color: red;}
+.container{
+    display: flex;
+
+}
+
+.main{
+    background-color:whitesmoke;
+    width: 88vw;
+}
+.info{
+   
+    height: 362px;;
+    width: 1050px;
+    margin: 100px auto;
+    display: flex;
+    justify-content: space-around;
+}
+.devinfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 98px;
+    margin-left: -618px;
+}
+.hello{
+    font-size: 50px;
+}
+.about{
+    font-size: 21px;
+}
+.buttons button{
+    
+    padding: 9px;
+    border-radius: 14px;
+    color: white;
+    background-color: #ef1d1d;
+    font-weight: bold;
+    font-size: 14px;
+    margin: 1px 2px;
+    cursor: pointer;
+
+}
+.buttons button:hover{
+    background-color: white ;
+    color: #ef1d1d;
+}
+.buttons{
+    margin-top: 8px;
+}
+
+.devPic img{
+    height: 180px;
+    margin-right: -133px;   
+    width: 351px;
+}
+span{
+    color: red;
+    font-weight: bold;
+}
+.contactme {
+    padding: 0 34px;
+    padding-top :144px; 
+}
+.contactme h1 {
+    text-align: center;
+}
+.contactme form div{
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+}
+.contactme form div input{
+    width: 20vw;
+    height: 3vh;
+    padding: 2px 13px;
+}
+#isclient{
+    margin: 0 1105px 0 -125px;
+}
+#emailHelp{
+MARGIN-TOP: 3px;
+margin-bottom: -15px;}
+#b1
+{
+    padding: 9px;
+        border-radius: 14px;
+        color: white;
+        background-color:grey;
+        font-weight: bold;
+        font-size: 14px;
+        margin: 1px 2px;
+
+    } #b1:hover{
+        background-color: white ;
+    color: grey;
+    }
+    .blogitem{
+        margin: 20px;
+    }
+    .blogitem h1{
+        margin:23px;
+    }
+    .demon img{
+        height: 204px;
+        margin-right: -16px;
+        margin-top: -67px;
+        width: 199px;}
+    #devi{
+       
+        height: 12px;;
+        width: 1050px;
+    }
+    .devinfo h1 {
+        text-align: center;
+        margin-top: -72px;
+        margin-right: -811px;
+
+    }
+    #wwe{
+        margin-left: 457px;
+    }
+#hh{
+    margin-left: 432px;
+
+    margin-top: -298px;
+}
+.skillcontainer{
+    padding: 12px;
+}
+#ui{width:265px;
+    height:6px;
+    background-color: red;
+
+}
+#ht{width:155px;
+    height:6px;
+    background-color: red;
+
+}
+#cs{width:135px;
+    height:6px;
+    background-color: red;}
+#ja{width:220px;
+    height:6px;
+    background-color: red;}
+#ph{width:200px;
+    height:6px;
+    background-color: red;}
+#ww{
+    margin-left: 432px;
+
+    
+}
+.images {
+    width: 31%;
+    height: 62%;
+    position: absolute;
+    bottom: 0;
+    right: 100px;
+    margin-bottom: 243px;
+}
+.images img{
+    height: 77%;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    transition : bottom 1s,left 1s;}
+    #abc:hover{
+        bottom: 40px;
+    }
+    
+    
+    #logo{
+        width: 8rem;
+        margin-left: 6rem;
+    }
+    #profile{
+        width: 40%;
+        object-fit: contain;
+        
+    
+        
+    }
+    #profile:hover{
+        left: 45%;
+    }
+    .SERVICES-content{
+        display: flex;
+        justify-content:space-around;
+        font-size:bold;
+        
+
+    }
